@@ -1,0 +1,17 @@
+[package]
+name = "camera-hub"
+version = "0.1.0"
+edition = "2021"
+repository = "https://gitlab.com/halodi/production-tooling/rust-tools.git"
+authors = [ "Morten Lysgaard <morten.lysgaard@halodi.com>" ]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.68"
+gstreamer = "0.20.2"
+gstreamer-rtsp = "0.20.0"
+gstreamer-rtsp-server = "0.20.0"
+gstreamer-sdp = "0.20.0"
+derive_more = "0.99.5"
+glib = "0.17.3"
